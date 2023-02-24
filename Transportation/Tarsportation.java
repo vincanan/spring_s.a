@@ -72,12 +72,12 @@ int maxPassenger;                   //최대 승객수
         return fuel;
     }
     //기름 더해주기
-    public int plusfuel(int fuel) {
+    public int plusFuel(int fuel) {
         fuelAmount += fuel;
         return getFuelAmount();
     }
     //기름 빼주기
-    public int mfuel(int fuel){
+    public int mFuel(int fuel){
         fuelAmount -= fuel;
             return getFuelAmount();
     }
